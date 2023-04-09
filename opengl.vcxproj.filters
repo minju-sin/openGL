@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\chap02">
+      <UniqueIdentifier>{35a0ab7d-e26a-4986-ad97-5de44059af59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chap02\다각형그리기">
+      <UniqueIdentifier>{4a079416-e196-4696-9bbf-4f4dd5e6e352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chap02\태양계">
+      <UniqueIdentifier>{01eb8a32-682e-4540-9ab9-319f34920029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chap02\다각형그리기\마우스이벤트">
+      <UniqueIdentifier>{a0d6171f-5acb-4109-8208-927fdd5c9bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chap02\다각형그리기\키보드이벤트">
+      <UniqueIdentifier>{0a776aac-fed6-411a-8f9d-6616d51aa3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chap02\다각형그리기\clipping">
+      <UniqueIdentifier>{1c36b054-fe37-4ae6-913a-b2fbdfdbe289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chap02\n_gon.cpp">
+      <Filter>소스 파일\chap02\다각형그리기</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\정17각형.cpp">
+      <Filter>소스 파일\chap02\다각형그리기</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\keyevent_clipping.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\키보드이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\viewport_keyboard.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\키보드이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\viewport_keyboard1.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\키보드이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\clipping_rectangle.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\Ortho2D.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\window_rescaling_00.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\clipping</Filter>
+    </ClCompile>
+    <ClCompile Include="chap02\OpenGL_Lab_Mouse_Event_Setting.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\마우스이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="Zoom-in_out.cpp">
+      <Filter>소스 파일\chap02\다각형그리기\마우스이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="chap03\sun_moon_Simulation_setting.cpp">
+      <Filter>소스 파일\chap02\태양계</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
